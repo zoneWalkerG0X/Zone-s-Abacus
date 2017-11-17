@@ -16,4 +16,5 @@ main = do
   "*" -> putStrLn(show (a * b))
   "/" -> putStrLn(show (a / b))
   "%" -> putStrLn(show ((floor a) `mod` (floor b)))
-  _ -> putStrLn "Unrecognized operator."	
+  _ -> putStrLn "Unrecognized operator."
+ main	
